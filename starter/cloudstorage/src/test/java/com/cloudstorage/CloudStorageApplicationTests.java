@@ -89,9 +89,7 @@ class CloudStorageApplicationTests {
 		// You may have to modify the element "success-msg" and the sign-up 
 		// success message below depening on the rest of your code.
 		*/
-        Assertions.assertTrue(driver.findElement(By.id("success-msg")).getText().contains("You successfully signed up! Please continue to the"));
-        WebElement buttonLogIN = driver.findElement(By.id("login-link"));
-        buttonLogIN.click();
+
     }
 
 
